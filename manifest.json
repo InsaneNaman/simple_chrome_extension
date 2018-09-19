@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Name_of_your_app",
+    "description": "description_of_your_app",
+    "version": "1",
+    "author": "your_name",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "webRequest",
+        "https://www.google.com/*" 
+    ],
+    "content_security_policy": "script-src 'self' https://code.getmdl.io/1.3.0/material.min.js; https://www.google.com/*; object-src 'self'"
+}

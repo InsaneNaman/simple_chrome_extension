@@ -1,0 +1,1 @@
+This project Starter project for Chrome Plugin. This project uses Material Design Lite as well.
